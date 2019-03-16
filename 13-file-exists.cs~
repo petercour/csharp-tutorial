@@ -1,0 +1,9 @@
+using System.IO;
+
+string path = @"file.txt";
+if (File.Exists(path))
+{
+    Console.WriteLine("File exists");
+} else {
+    Console.WriteLine("File does not exist");
+}
